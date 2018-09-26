@@ -1,6 +1,6 @@
 const Lib = require('./lib')
 
-var argv = require('minimist')(process.argv.slice(2));
+var argv = require('minimist')(process.argv.slice(2), { string: ['s', 'e', 'o', 'r', 't']});
 
 console.log(argv);
 
